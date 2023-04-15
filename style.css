@@ -2,20 +2,100 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .cabecalho {
     background-color: #000000;
     color: white;
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
 }
 
-.cabecalho-imagem{
-    width: 5%;
+.cabecalho-imagem1{
+    width: 10%;
+}
+
+.cabecalho-imagem2{
+    width: 10%;
 }
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 30px; 
+    margin: 25px 100px; 
     font-size: 24px;
+}
+
+.logoesc{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#009A04,#A7E5A9,#009A04,#A7E5A9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    font-size: 28px;
+    padding: 50px 0;
+}
+
+.escola-texto1{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.logoesc{
+	position:absolute;
+	left:80%;
+	top:20%;
+}
+
+.imagem-prof{
+    width: 208px;
+    height: 195px;
+}
+
+.icones{
+    width: 24px;
+    margin: 0px 20px; 
+}
+
+.prof-nome{
+    margin: 0px 40px;
+}
+
+.prof-div{
+    text-align: center;
+}
+
+.professores-titulo{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.prof-todos{
+    display: grid;
+    grid-template-columns: 16% 17% 17% 17% 17% 16%;
+}
+
+.professores{
+    background-image: linear-gradient(#009A04,#A7E5A9,#009A04,#A7E5A9);
+    color: white;
+}
+
+.rodape{
+    background-color: #000000;
+    color: white;
+    text-align: right;
+    padding: 20px 0;
 }
