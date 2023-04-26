@@ -30,6 +30,7 @@ body{
 
 .logoesc{
     width: 20%;
+    border-radius: 80px;
 }
 
 .escola{
@@ -46,7 +47,7 @@ body{
 
 .escola-titulo{
     font-size: 28px;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .escola-texto1{
@@ -57,12 +58,13 @@ body{
 .logoesc{
 	position:absolute;
 	left:80%;
-	top:20%;
+	top:15%;
 }
 
 .imagem-prof{
     width: 208px;
     height: 195px;
+    border-radius: 60px;
 }
 
 .icones{
@@ -97,5 +99,5 @@ body{
     background-color: #000000;
     color: white;
     text-align: right;
-    padding: 20px 0;
+    padding: 10px 0;
 }
